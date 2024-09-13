@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins';
+}
+
+header{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+#principal{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  gap:100px;
+  height:500px;
+  width:1000px;
+ 
+} 
+
+figure{
+  display:flex;
+  width:100px;
+  height:400px;
+  margin-bottom:50px;
+
+}
+
+#sec_ctd{
+  display:flex;
+  flex-direction:column;
+  text-align: justify;
+  font-size:17px;
+  width:540px;
+  height:500px;
+
+}
+
+#second{
+  display:flex;
+  align-items:center;
+  flex-direction:row;
+  justify-content:space-around;
+  width:1200px;
+  height:500px;
+  margin-left:150px;
+  margin-right:150px;
+}
+
+#contato{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+}
+
+#email a{
+  display:flex;
+  color:white;
+  text-decoration:none;
+  font-size:10px;
+  margin-top:15px;
+}
+
+#social img{
+  margin-top:15px;
+  height:20px;
+}
+
+.capa{
+  width:200px;
+}
+
+#stream {
+  display:flex;
+}
+
+.link-menu {
+  color: #fff;
+  background-color: #555;
+  border-radius:10px;
+  text-decoration:none;
+  padding: 10px 20px;
+}
+
+.f {
+  background-color: #5b305a;
+  border-radius:10px;
+}
+
+.l {
+  background-color: #e49756;
+  border-radius:10px;
+}
+
+.m {
+  background-color: #e04b5a;
+  border-radius:10px;
+}
+
+main {
+  display:flex;
+  height:500px;
+  width:100%;
+  flex:1;
+  background-color: #333;
+  color: #ddd;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+}
+
+h1{
+  display:flex;
+  font-family: 'Amatic SC';
+  font-size:50px;
+  margin-bottom:20px;
+  margin-top:10px;
+  justify-content:flex-end;
+}
+
+#second a{
+  color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: #ddd;
+  height:50px;
+}
+
+#logo{
+  display:flex;
+  width:100px;
+  
+}
+
+#menu{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  gap:10px;
+  list-style-type:none;
+}
+
+.m #capa{
+  height:200px;
+  margin-top:100px;
+}
+
+.m #sec_ctd{
+  width:450px;
+}
+
+#second #descricao{
+  display:flex;
+  flex-direction:column;
+  border:thin solid black;
+  padding-top:10px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:10px;
+}
+
+
+#acesso{
+  display:flex;
+  width:200px;
+  flex-direction:column;
+  justify-content:space-around;
+  padding: 50px 50px;
+  font-family: 'Amatic SC';
+  color:white;
+  font-size:30px;
+  text-align:center;
+  
+}
+
+h3{
+  margin-right:700px;
+}
+
+#acesso a{
+  text-decoration:none;
+}
+
+
